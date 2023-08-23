@@ -1,0 +1,26 @@
+#pattern {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.textarea-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.textarea-container > textarea {
+  width: 80%;
+}
+
+.pattern-line {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.pattern-line:nth-child(odd) {
+  background-color: grey;
+}
+
+.highlighted-line {
+  border: 3px yellow solid;
+}
